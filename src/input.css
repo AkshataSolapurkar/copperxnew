@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply items-center justify-center gap-2 rounded-lg py-2 px-3 text-sm font-medium leading-5 border-solid border-[1px];
+    }
+    .btn-light{
+        @apply bg-opacity-100 bg-white text-gray-900;
+    }
+    .btn-dark{
+        @apply text-opacity-100 bg-opacity-100 text-white bg-black;
+    }
+    .title-xl{
+        @apply text-5xl leading-[52px];
+    }
+}
+@layer utilities{
+    .lg-container{
+        @apply relative max-w-8xl w-full mr-auto ml-auto pl-[3rem] pr-12;
+    }
+    .body-lg{
+        @apply text-lg leading-7;
+    }
+    .body-sm{
+        @apply text-sm leading-5;
+    }
+    .body-md{
+        @apply text-[1rem] leading-6;
+    }
+}
+@layer base{
+    .m{
+        @apply 
+    }
+}
